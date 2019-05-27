@@ -1,2 +1,0 @@
-# leaderboard
-Hamilton lab website
