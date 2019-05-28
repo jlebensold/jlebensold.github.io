@@ -1,161 +1,37 @@
-@article{ermon_gail,
-  author    = {Jonathan Ho and
-               Stefano Ermon},
-  title     = {Generative Adversarial Imitation Learning},
-  journal   = {CoRR},
-  volume    = {abs/1606.03476},
-  year      = {2016},
-  url       = {http://arxiv.org/abs/1606.03476},
-  archivePrefix = {arXiv},
-  eprint    = {1606.03476},
-  timestamp = {Mon, 13 Aug 2018 16:47:10 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/HoE16},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@article{Bose2019,
+abstract = {Adversarial attacks on deep neural networks traditionally rely on a constrained optimization paradigm, where an optimization procedure is used to obtain a single adversarial perturbation for a given input example. Here, we instead view adversarial attacks as a generative modelling problem, with the goal of producing entire distributions of adversarial examples given an unperturbed input. We show that this generative perspective can be used to design a unified encoder-decoder framework, which is $\backslash$textit{\{}domain-agnostic{\}} in that the same framework can be employed to attack different domains with minimal modification. Across three diverse domains---images, text, and graphs---our approach generates whitebox attacks with success rates that are competitive with or superior to existing approaches, with a new state-of-the-art achieved in the graph domain. Finally, we demonstrate that our generative framework can efficiently generate a diverse set of attacks for a single given input, and is even capable of attacking $\backslash$textit{\{}unseen{\}} test instances in a zero-shot manner, exhibiting {\{}$\backslash$em attack generalization.}},
+archivePrefix = {arXiv},
+arxivId = {1905.10864},
+author = {Bose, Avishek Joey and Cianflone, Andre and Hamiltion, William},
+eprint = {1905.10864},
+file = {:Users/jon/Library/Application Support/Mendeley Desktop/Downloaded/Bose, Cianflone, Hamiltion - 2019 - Generalizable Adversarial Attacks Using Generative Models.pdf:pdf},
+month = {may},
+title = {{Generalizable Adversarial Attacks Using Generative Models}},
+url = {http://arxiv.org/abs/1905.10864},
+year = {2019}
+}
+
+@article{Morris2018,
+abstract = {In recent years, graph neural networks (GNNs) have emerged as a powerful neural architecture to learn vector representations of nodes and graphs in a supervised, end-to-end fashion. Up to now, GNNs have only been evaluated empirically---showing promising results. The following work investigates GNNs from a theoretical point of view and relates them to the {\$}1{\$}-dimensional Weisfeiler-Leman graph isomorphism heuristic ({\$}1{\$}-WL). We show that GNNs have the same expressiveness as the {\$}1{\$}-WL in terms of distinguishing non-isomorphic (sub-)graphs. Hence, both algorithms also have the same shortcomings. Based on this, we propose a generalization of GNNs, so-called {\$}k{\$}-dimensional GNNs ({\$}k{\$}-GNNs), which can take higher-order graph structures at multiple scales into account. These higher-order structures play an essential role in the characterization of social networks and molecule graphs. Our experimental evaluation confirms our theoretical findings as well as confirms that higher-order information is useful in the task of graph classification and regression.},
+archivePrefix = {arXiv},
+arxivId = {1810.02244},
+author = {Morris, Christopher and Ritzert, Martin and Fey, Matthias and Hamilton, William L and Lenssen, Jan Eric and Rattan, Gaurav and Grohe, Martin},
+eprint = {1810.02244},
+file = {:Users/jon/Library/Application Support/Mendeley Desktop/Downloaded/Morris et al. - Unknown - Weisfeiler and Leman Go Neural Higher-order Graph Neural Networks.pdf:pdf},
+title = {{Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks}},
+url = {www.aaai.org http://arxiv.org/abs/1810.02244},
+year = {2018}
 }
 
 
-@article{ho_generative_2016,
-	title = {Generative {Adversarial} {Imitation} {Learning}},
-	url = {http://arxiv.org/abs/1606.03476},
-	abstract = {Consider learning a policy from example expert behavior, without interaction with the expert or access to reinforcement signal. One approach is to recover the expert’s cost function with inverse reinforcement learning, then extract a policy from that cost function with reinforcement learning. This approach is indirect and can be slow. We propose a new general framework for directly extracting a policy from data, as if it were obtained by reinforcement learning following inverse reinforcement learning. We show that a certain instantiation of our framework draws an analogy between imitation learning and generative adversarial networks, from which we derive a model-free imitation learning algorithm that obtains significant performance gains over existing model-free methods in imitating complex behaviors in large, high-dimensional environments.},
-	language = {en},
-	urldate = {2019-01-18},
-	journal = {arXiv:1606.03476 [cs]},
-	author = {Ho, Jonathan and Ermon, Stefano},
-	month = jun,
-	year = {2016},
-	note = {arXiv: 1606.03476},
-	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning},
-	file = {Ho and Ermon - 2016 - Generative Adversarial Imitation Learning.pdf:/home/dyth/Zotero/storage/F36WHVLY/Ho and Ermon - 2016 - Generative Adversarial Imitation Learning.pdf:application/pdf}
-}
 
-
-@article{li_gail,
-  author    = {Yunzhu Li and
-               Jiaming Song and
-               Stefano Ermon},
-  title     = {Inferring The Latent Structure of Human Decision-Making from Raw Visual
-               Inputs},
-  journal   = {CoRR},
-  volume    = {abs/1703.08840},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1703.08840},
-  archivePrefix = {arXiv},
-  eprint    = {1703.08840},
-  timestamp = {Mon, 13 Aug 2018 16:48:01 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/LiSE17},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-@article{hausman_gail,
-  author    = {Karol Hausman and
-               Yevgen Chebotar and
-               Stefan Schaal and
-               Gaurav S. Sukhatme and
-               Joseph J. Lim},
-  title     = {Multi-Modal Imitation Learning from Unstructured Demonstrations using
-               Generative Adversarial Nets},
-  journal   = {CoRR},
-  volume    = {abs/1705.10479},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1705.10479},
-  archivePrefix = {arXiv},
-  eprint    = {1705.10479},
-  timestamp = {Mon, 13 Aug 2018 16:49:13 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/HausmanCSSL17},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-@article{Chen_InfoGan,
-  author    = {Xi Chen and
-               Yan Duan and
-               Rein Houthooft and
-               John Schulman and
-               Ilya Sutskever and
-               Pieter Abbeel},
-  title     = {InfoGAN: Interpretable Representation Learning by Information Maximizing
-               Generative Adversarial Nets},
-  journal   = {CoRR},
-  volume    = {abs/1606.03657},
-  year      = {2016},
-  url       = {http://arxiv.org/abs/1606.03657},
-  archivePrefix = {arXiv},
-  eprint    = {1606.03657},
-  timestamp = {Mon, 03 Sep 2018 12:15:29 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/ChenDHSSA16},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-
-@incollection{NIPS2014_5423,
-title = {Generative Adversarial Nets},
-author = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
-booktitle = {Advances in Neural Information Processing Systems 27},
-editor = {Z. Ghahramani and M. Welling and C. Cortes and N. D. Lawrence and K. Q. Weinberger},
-pages = {2672--2680},
-year = {2014},
+@incollection{NIPS2018_7729,
+title = {Hierarchical Graph Representation Learning with Differentiable Pooling},
+author = {Ying, Zhitao and You, Jiaxuan and Morris, Christopher and Ren, Xiang and Hamilton, Will and Leskovec, Jure},
+booktitle = {Advances in Neural Information Processing Systems 31},
+editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+pages = {4800--4810},
+year = {2018},
 publisher = {Curran Associates, Inc.},
-url = {http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf}
+url = {http://papers.nips.cc/paper/7729-hierarchical-graph-representation-learning-with-differentiable-pooling.pdf}
 }
-
-@article{ziebart_modeling_nodate,
-	title = {Modeling {Interaction} via the {Principle} of {Maximum} {Causal} {Entropy}},
-	abstract = {The principle of maximum entropy provides a powerful framework for statistical models of joint, conditional, and marginal distributions. However, there are many important distributions with elements of interaction and feedback where its applicability has not been established. This work presents the principle of maximum causal entropy—an approach based on causally conditioned probabilities that can appropriately model the availability and inﬂuence of sequentially revealed side information. Using this principle, we derive models for sequential data with revealed information, interaction, and feedback, and demonstrate their applicability for statistically framing inverse optimal control and decision prediction tasks.},
-	language = {en},
-	author = {Ziebart, Brian D and Bagnell, J Andrew and Dey, Anind K},
-	pages = {8},
-	file = {Ziebart et al. - Modeling Interaction via the Principle of Maximum .pdf:/home/dyth/Zotero/storage/T7LIF5LX/Ziebart et al. - Modeling Interaction via the Principle of Maximum .pdf:application/pdf}
-}
-
-@article{bahdanau_learning_2018,
-	title = {Learning to {Understand} {Goal} {Specifications} by {Modelling} {Reward}},
-	url = {http://arxiv.org/abs/1806.01946},
-	abstract = {Recent work has shown that deep reinforcement-learning agents can learn to follow language-like instructions from infrequent environment rewards. However, this places on environment designers the onus of designing language-conditional reward functions which may not be easily or tractably implemented as the complexity of the environment and the language scales. To overcome this limitation, we present a framework within which instruction-conditional RL agents are trained using rewards obtained not from the environment, but from reward models which are jointly trained from expert examples. As reward models improve, they learn to accurately reward agents for completing tasks for environment conﬁgurations—and for instructions—not present amongst the expert data. This framework effectively separates the representation of what instructions require from how they can be executed. In a simple grid world, it enables an agent to learn a range of commands requiring interaction with blocks and understanding of spatial relations and underspeciﬁed abstract arrangements. We further show the method allows our agent to adapt to changes in the environment without requiring new expert examples.},
-	language = {en},
-	urldate = {2019-01-18},
-	journal = {arXiv:1806.01946 [cs]},
-	author = {Bahdanau, Dzmitry and Hill, Felix and Leike, Jan and Hughes, Edward and Kohli, Pushmeet and Grefenstette, Edward},
-	month = jun,
-	year = {2018},
-	note = {arXiv: 1806.01946},
-	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning},
-	annote = {Comment: 18 pages, 8 figures},
-	file = {Bahdanau et al. - 2018 - Learning to Understand Goal Specifications by Mode.pdf:/home/dyth/Zotero/storage/57IZ4662/Bahdanau et al. - 2018 - Learning to Understand Goal Specifications by Mode.pdf:application/pdf}
-}
-
-
-@InProceedings{pmlr-v70-baram17a,
-  title = 	 {End-to-End Differentiable Adversarial Imitation Learning},
-  author = 	 {Nir Baram and Oron Anschel and Itai Caspi and Shie Mannor},
-  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
-  pages = 	 {390--399},
-  year = 	 {2017},
-  editor = 	 {Doina Precup and Yee Whye Teh},
-  volume = 	 {70},
-  series = 	 {Proceedings of Machine Learning Research},
-  address = 	 {International Convention Centre, Sydney, Australia},
-  month = 	 {06--11 Aug},
-  publisher = 	 {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v70/baram17a/baram17a.pdf},
-  url = 	 {http://proceedings.mlr.press/v70/baram17a.html},
-  abstract = 	 {Generative Adversarial Networks (GANs) have been successfully applied to the problem of \emph{policy imitation} in a model-free setup. However, the computation graph of GANs, that include a stochastic policy as the generative model, is no longer differentiable end-to-end, which requires the use of high-variance gradient estimation. In this paper, we introduce the Model-based Generative Adversarial Imitation Learning (MGAIL) algorithm. We show how to use a forward model to make the computation fully differentiable, which enables training policies using the exact gradient of the discriminator. The resulting algorithm trains competent policies using relatively fewer expert samples and interactions with the environment. We test it on both discrete and continuous action domains and report results that surpass the state-of-the-art.}
-}
-
-@article{directedgail,
-  author    = {Arjun Sharma and
-               Mohit Sharma and
-               Nicholas Rhinehart and
-               Kris M. Kitani},
-  title     = {Directed-Info {GAIL:} Learning Hierarchical Policies from Unsegmented
-               Demonstrations using Directed Information},
-  journal   = {CoRR},
-  volume    = {abs/1810.01266},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1810.01266},
-  archivePrefix = {arXiv},
-  eprint    = {1810.01266},
-  timestamp = {Tue, 30 Oct 2018 10:49:09 +0100},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1810-01266},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
