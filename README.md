@@ -79,7 +79,7 @@ Remember to restart the Jekyll server after modifying this file.
 To build the static site for deployment:
 
 ```bash
-bundle exec jekyll build
+bundle exec jekyll build -d ../jlebensold.github.io
 ```
 
 This generates the site in the `_site/` directory.
